@@ -1,0 +1,83 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border-bottom: double 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+/* Style the label to resemble a toggle button */
+
+.toggle-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Additional styles for dark mode */
+.dark-mode .toggle-label {
+    background-color: #222; /* Adjust color for dark mode */
+    color: #fff; /* Adjust color for dark mode */
+}
+
+/* Dark mode styles */
+.dark-mode header {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode main {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .post-item {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #222;
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+.post-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+}
