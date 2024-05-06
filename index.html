@@ -6,21 +6,20 @@
     <title>Personal Blog</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/form.css">
-    <link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
     <header>
         <div>
-            <input type="checkbox" class="toggle-checkbox" class="toggle-checkbox">
+            <input type="checkbox" class="toggle-checkbox" id="toggle">
             <label for="toggle" class="toggle-label">☀️</label>
         </div>
     </header>
-    <main>
+    <main class="container">
         <div class="circle">
             My First Blog
         </div>
         <div class="vl"></div>
-        <form id="blogForm">
+        <form id="blogForm" class="form">
             <label for="username">Username</label>
             <input type="text" id="username" required>
             <label for="title">Title</label>

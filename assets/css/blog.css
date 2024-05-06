@@ -1,16 +1,26 @@
 /* Styles specific to the blog page */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
 header nav {
     padding-top: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-decoration: none;
+    font-size: 20px;
 }
 
 button {
-    flex: auto;
+    margin-top: 15px;
     padding: 0.5rem 1rem;
     background-color: black;
     color: #fff;
