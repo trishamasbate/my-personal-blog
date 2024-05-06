@@ -12,8 +12,8 @@ function displayPosts() {
             const postItem = document.createElement('div');
             postItem.classList.add('post-item');
             postItem.innerHTML = `
-                <h4>${post.title}</h4>
-                <p>${post.content}</p>
+                <h1>${post.title}</h1>
+                <p class="content">${post.content}</p>
                 <p>Posted by: ${post.username}</p>
             `;
             postList.appendChild(postItem);

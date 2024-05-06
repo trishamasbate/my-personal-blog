@@ -1,4 +1,8 @@
 /* Styles specific to the form page */
+.container {
+    display: flex;
+}
+
 .circle {
     width: 500px;
     height: 500px;
@@ -10,26 +14,24 @@
     color: #fff;
     text-align: center;
     background: linear-gradient(#F8DE7E, #D99058);
-  }
-
-div .circle {
-    float: left;
-    display: column;
-    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 80px;
 }
 
-div .vl {
-    border-left: 6px solid green;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
+nav {
+    display: flex;
+    text-align: right;
+
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
 }
 
 form {
-    display: column;
-    float: right;
+    flex: 1;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -47,7 +49,6 @@ textarea {
 }
 
 button {
-    flex: auto;
     padding: 0.5rem 1rem;
     background-color: #333;
     color: #fff;
