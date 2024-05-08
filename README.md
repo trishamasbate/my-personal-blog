@@ -15,11 +15,11 @@ It is tailored to have these main features:
 
 * Use the link:
   
-  [Personal Blog for Marketing Students]()
+  [Personal Blog for Marketing Students](https://trishamasbate.github.io/my-personal-blog/)
 
 * Clone the repository:
 ```
-git clone
+git clone git@github.com:trishamasbate/my-personal-blog.git
 ```
 
 📌 Click on the "Submit" button to send and store inputs for:
