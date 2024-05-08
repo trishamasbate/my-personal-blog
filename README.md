@@ -11,7 +11,7 @@ It is tailored to have these main features:
 
 ## ✏️ Installation and Usage
 
-To run the Personal Blog for Marketing Students, you can do either of the following:
+📌 To run the Personal Blog for Marketing Students, you can do either of the following:
 
 * Use the link:
   
@@ -22,44 +22,42 @@ To run the Personal Blog for Marketing Students, you can do either of the follow
 git clone
 ```
 
-Click on the "Submit" button to send and store inputs for:
+📌 Click on the "Submit" button to send and store inputs for:
 
 1. Username
 2. Title
 3. Content
 
-This code is structured to also feature the following on the pages:
+📌 This code is structured to also feature the following on the pages:
 
 - Local Storage Blog Post Storage:
-   - Upon form submission, store the blog post data (including username, title, and content) in the browser's local storage.
+   - Upon form submission, stores the blog post data (including username, title, and content) in the browser's local storage.
 
 - Redirection to Posts Page:
-  - After successful form submission, redirect the user to the posts page.
+  - After successful form submission, redirects the user to the posts page.
 
 - Form Validation Prompt:
-  - Display a message prompting the user to complete the form if they attempt to submit it without entering a username, title, or content.
+  - Displays a message prompting the user to complete the form if they attempt to submit it without entering a username, title, or content.
 
 - Light Mode/Dark Mode Toggle.
-  - Enable users to switch between light mode and dark mode by clicking the toggle.
+  - Enables users to switch between light mode and dark mode by clicking the toggle.
 
 - "Back" Button.
-  - Implement functionality for the "Back" button to redirect users back to the landing page for inputting more blog entries.
+  - Implements functionality for the "Back" button to redirect users back to the landing page for inputting more blog entries.
 
 - Local Storage JSON Array:
-  - Provide users with the ability to view the stored blog post data in the form of a JSON array.
+  - Provides users with the ability to view the stored blog post data in the form of a JSON array.
 
 - Footer with Developer's Portfolio Link:
-  - Provide a link within the footer that directs users to the developer's portfolio.
+  - Provides a link within the footer that directs users to the developer's portfolio.
 
 
 
-Below is a preview showing the functionality of the Employee Payroll Tracker:
-
-[Personal Blog for Marketing Students Workaround]()
+📌 Here is a preview showing the functionality of the Marketing Student Personal Blog: [Personal Blog for Marketing Students Workaround](https://youtu.be/pdmJflMeGmQ)
 
 
 
-![Personal Blog for Marketing Students Screenshot]()
+![Personal Blog for Marketing Students Screenshot](./assets/images/personal-blog-pic.png)
 
 
 ## ✏️ Credits
