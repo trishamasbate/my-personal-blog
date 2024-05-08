@@ -1,4 +1,9 @@
 /* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -9,16 +14,18 @@ header {
 header h1 {
     padding-left: 50px;
     margin-right: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
 
 header nav {
-    padding-top: 5px;
+    margin-top: 5px;
     margin-right: 20px;
-    margin-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
     font-size: 20px;
+}
+
+header div {
+    margin-right: 15px;
 }
 
 button {
@@ -30,15 +37,13 @@ button {
     cursor: pointer;
 }
 
-body {
-    font-family: Arial, sans-serif;
+main {
+    padding: 1rem;
 }
 
 .toggle-checkbox {
     display: none;
 }
-
-/* Style the label to resemble a toggle button */
 
 .toggle-label {
     display: inline-block;
@@ -73,17 +78,16 @@ body {
     color: #fff;
 }
 
+.dark-mode .post-item h1 {
+    color: #fff;
+}
+
+
 .dark-mode footer {
     background-color: #222;
     color: #fff;
 }
 
-main {
-    padding: 2rem;
-}
-
-.post-item {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin-bottom: 1rem;
+.dark-mode footer a {
+    color: #fff;
 }

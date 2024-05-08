@@ -1,6 +1,7 @@
 /* Styles specific to the form page */
 .container {
     display: flex;
+    padding-top: 110px;
 }
 
 .circle {
@@ -18,22 +19,23 @@
     margin-left: 80px;
 }
 
-nav {
+header nav {
     display: flex;
-    text-align: right;
+    margin-left: 178vh;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
 
+form {
+    flex: 1;
+    max-width: 600px;
+    margin: auto;
 }
 
 h1 {
     font-size: 20px;
     text-align: center;
     padding: 5px;
-}
-
-form {
-    flex: 1;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 label {
@@ -49,6 +51,8 @@ textarea {
 }
 
 button {
+    margin-left: 10px;
+    width: 100%;
     padding: 0.5rem 1rem;
     background-color: #333;
     color: #fff;
